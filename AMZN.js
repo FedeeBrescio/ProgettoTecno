@@ -13,7 +13,7 @@ const fetchData = async (url) => {
 };
 
 (async () => {
-    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/AMZN.json?token=GHSAT0AAAAAACKTFGYKXOQWASSNXXKCX2VKZLIKZLA");
+    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/AMZN.json");
     console.log("Date:", data);
 
     let showTotal = false;

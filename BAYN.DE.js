@@ -13,7 +13,7 @@ const fetchData = async (url) => {
 };
 
 (async () => {
-    const data = await fetchData("https://github.com/FedeeBrescio/ProgettoTecno/blob/main/AZN.json");
+    const data = await fetchData("https://github.com/FedeeBrescio/ProgettoTecno/blob/main/BAYN.DE.json");
     console.log("Date:", data);
 
     //const filtro = data.filter()
