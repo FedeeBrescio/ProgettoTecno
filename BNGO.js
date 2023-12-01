@@ -13,7 +13,7 @@ const fetchData = async (url) => {
 };
 
 (async () => {
-    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/BAYN.DE.json");
+    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/BNGO.json");
     console.log("Date:", data);
 
     //const filtro = data.filter()
@@ -29,7 +29,7 @@ const fetchData = async (url) => {
         data: {
             labels: labels,
             datasets: [{
-                label: "BAYN.DE",
+                label: "BNGO",
                 data: totaleData,
                 borderColor: "rgba(0, 0, 255, 1)",
                 hidden: false
