@@ -13,10 +13,8 @@ const fetchData = async (url) => {
 };
 
 (async () => {
-    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/AMZN.json");
+    const data = await fetchData("https://raw.githubusercontent.com/FedeeBrescio/ProgettoTecno/main/PFE.json");
     console.log("Date:", data);
-
-    let showTotal = false;
 
     //const filtro = data.filter()
 
@@ -31,7 +29,7 @@ const fetchData = async (url) => {
         data: {
             labels: labels,
             datasets: [{
-                label: "AMZ",
+                label: "PFE",
                 data: totaleData,
                 borderColor: "rgba(0, 0, 255, 1)",
                 hidden: false
